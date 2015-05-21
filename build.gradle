@@ -1,7 +1,9 @@
 group 'com.toastcoders.vmware'
 version '1.0-SNAPSHOT'
 
+apply plugin:'application'
 apply plugin: 'groovy'
+mainClassName = 'com.toastcoders.vmware.yavijava.Main'
 
 sourceCompatibility = 1.7
 
